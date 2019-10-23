@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        
+        <style>
+            
+            input{
+                color:black;
+                size:30;
+            }
+            #a{
+ 
+                border-radius: 5px;
+                width: 600px;   
+            } 
+            #b{
+                
+                border-radius: 5px;
+                width: 400px;  
+            }
+             body {
+
+            /* Ubicación de la imagen */
+
+            background-image: url(imagenes/espacio.gif);
+            /* Para que la imagen de fondo no se repita */
+            background-repeat: no-repeat;
+            background-size: cover;
+            } 
+        </style>
+    <body>
+        <font size="3" color="white" face="Comic Sans MS,arial">
+      
+        <div align="center">
+           
+            <br>
+            <img id="b" src="imagenes/quizzplaneta.jpg">
+       
+       <br>
+       <br>
+       <p><u><strong>No te preocupes recuperaremos tu contraseña pronto</strong></u></p>
+       </div>
+       <br>
+       <div align="center">
+       <form id="a" action="CrearUsuario.php" method="post" action="datosFormulario.php">
+            <br>
+            
+  <p><u><strong>Email: <input type="text"  name="email" size="30"required=""></strong></u></p>
+  <br>
+  <p><u><strong>Alias:  <input type="text"  name="alias" size="30"required=""></strong></u></p>
+  <br>
+  <p>
+    <input type="submit" name="enviar" value="Recuperar" size="30">
+    <input type="reset" name="borrar" value="Volver" size="30">
+     </p>
+</form>
+   </div>
+        
+        
+        <?php
+        // put your code here
+        ?>
+    </body>
+</html>

@@ -10,9 +10,12 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        
+
+
         <style>
-            
+            a{
+                color:white;
+            }
             input{
                 color:black;
                 size:30;
@@ -31,7 +34,7 @@ and open the template in the editor.
 
             /* Ubicación de la imagen */
 
-            background-image: url(imagenes/espacio.gif);
+            background-image: url(imagenes/espacio2.gif);
             /* Para que la imagen de fondo no se repita */
             background-repeat: no-repeat;
             background-size: cover;
@@ -59,8 +62,9 @@ and open the template in the editor.
   <p><u><strong>Alias:  <input type="text"  name="alias" size="30"required=""></strong></u></p>
   <br>
   <p>
-    <input type="submit" name="enviar" value="Recuperar" size="30">
-    <input type="reset" name="borrar" value="Volver" size="30">
+      
+
+    
      </p>
 </form>
    </div>

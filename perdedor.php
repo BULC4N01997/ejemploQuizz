@@ -4,7 +4,7 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
-<html>
+<<html>
     <head>
         <meta charset="UTF-8">
         <meta charset="UTF-8">
@@ -12,6 +12,9 @@ and open the template in the editor.
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         
         <style>
+            a{
+                color: white;
+            }
             input{
                 color:black;
                 size:30;
@@ -26,46 +29,43 @@ and open the template in the editor.
                 border-radius: 5px;
                 width: 400px;  
             }
-            body {
+             body {
 
             /* Ubicación de la imagen */
 
-            background-image: url(imagenes/espacio2.gif);
+            background-image: url(imagenes/perdedor.gif);
             /* Para que la imagen de fondo no se repita */
             background-repeat: no-repeat;
             background-size: cover;
+         
             } 
         </style>
-        <title>Crear Usuario</title>
-    </head>
-   <body>
-       <font size="3" color="white" face="Comic Sans MS,arial">
+    <body>
+        <font size="3" color="white" face="Comic Sans MS,arial">
       
         <div align="center">
            
-            <br>
-            <img id="b" src="imagenes/quizzplaneta.jpg">
-        </div>
-       <br>
-       <br>
-       <div align="center">
-       <form id="a" action="datosFormularioNuevo.php" method="post" >
-            <br>
-            
-  <p><u><strong>Nombre: <input type="text"  name="nombre" size="30"required=""></strong></u></p>
-  <br>
-  <p><u><strong>Alias:  <input type="text"  name="alias" size="30"required=""></strong></u></p>
-  <br>
-  <p><u><strong>Contraseña:  <input type="text"  name="contraseña" size="30"required=""></strong></u></p>
-  <br>
-  <p><u><strong>Email:  <input type="text"  name="email" size="30" required=""></strong></u></p>
-   <br>
-  <p>
-    <input type="submit" name="enviar" value="Enviar" size="30">
-    <input type="reset" name="borrar" value="Borrar" size="30">
-     </p>
-</form>
-   </div>
       
+       <p><strong><h1>Vaya...Vaya...Vaya</h1></strong></p>
+       </div>
+        <br>
+        <br>
+         <br>
+        <br>
+        <div align="center">
+             <br>
+        <br>
+         <br>
+        <br>
+            <a href="usuarioOlvidado.php" target="_blank"><h1>Reintentar</h1></a>
+            <br>
+            <a href="usuarioOlvidado.php" target="_blank"><h1>Elegir Modo</h1></a>
+            <br>
+            <a href="usuarioOlvidado.php" target="_blank"><h1>Cerrar Juego</h1></a>
+        
+        </div>
+        <?php
+        // put your code here
+        ?>
     </body>
 </html>
